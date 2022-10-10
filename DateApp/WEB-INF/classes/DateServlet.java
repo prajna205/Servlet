@@ -18,7 +18,7 @@ public class DateServlet extends GenericServlet{
 		Date d = new Date();//holds system date and time
 		
 		//write generated output to response object using printwriter stream
-		pw.println("<h1>System Date and Time :" + d + "</h1>");
+		pw.println("<h1 style='color:blue;text-align:center'> System Date and Time :::" + d + "</h1>");
 		
 		//close the printwriter
 		pw.close();
