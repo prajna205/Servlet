@@ -23,12 +23,12 @@ public class VaccineEligibityCheckServlet extends HttpServlet {
 		
 		//business logic(request processing logic)
 		if(age<18)
-			pW.println("<h1 style='color:red ; text-align:center'>Hello "+ name+"U are not eligible for vaccination</h1>");
+			pW.println("<h1 style='color:red;text-align:center'>Hello "+ name+", U are not eligible for vaccination</h1>");
 		else
-			pW.println("<h1 style='color:red ; text-align:center'>Hello "+ name+"U are eligible for vaccination</h1>");
+			pW.println("<h1 style='color:green;text-align:center'>Hello "+ name+", U are eligible for vaccination</h1>");
 		
 		//add hyperlink to navigate to home page 
-		pW.println("<a href = 'http://localhost:3030/CoronaVaccineApp/corona_vaccine.html><img src='images/home.png'></a>");
+		pW.println("<a href = 'welcome'><img src='images/home.jpg'><br>Back to Home</a>");
 		//close print writer
 		pW.close();
 	}
