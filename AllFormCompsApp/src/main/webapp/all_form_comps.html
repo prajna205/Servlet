@@ -1,0 +1,105 @@
+
+
+<h1 style="text-align:center;color:red">Working with all form components</h1>
+
+<form action="formurl" method="POST">
+	<table bgcolor='cyan' align='center'>
+	<tr>
+		<td>Person Name::</td>
+		<td><input type="text" name="pname" maxlength="20" required><span style="color:red">*</span></td>
+	</tr>
+	<tr>
+		<td>Person age::</td>
+		<td><input type="password" name="page" required><span style="color:red">*</span></td>
+	</tr>
+	<tr>
+		<td>Person address::</td>
+		<td><textarea rows="10" cols="30" name="paddrs" maxlength="100"></textarea></td>
+	</tr>
+	<tr>
+		<td>Gender::</td>
+		<td>
+		 	<input type="radio" name="gender" value="M">Male &nbsp;&nbsp;
+		 	<input type="radio" name="gender" value="F" checked>Female
+		</td>
+	</tr>
+	<tr>
+		<td>Marital status::</td>
+		<td><input type="checkbox" name="ms" value="married">Married
+		</td>
+	</tr>
+	<tr>
+		<td>Qualification::</td>
+		<td>
+			<select name="qulf">
+			 <option value="select" selected>--select--</option>
+			 <option value="Engineer">BA/B.Tech</option>
+			 <option value="medic">MBBS/MD</option>
+			 <option value="Accountant">B.com/M.com</option>
+			 <option value="arts">BA/MA</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Mobile no::</td>
+		<td><input type="tel" name="mobno"></td>
+	</tr>
+	<tr>
+		<td>Email id::</td>
+		<td><input type="email" name="mailid"></td>
+	</tr>
+	<tr>
+		<td>Languages Known::</td>
+		<td>
+			<select name="lang" multiple>
+			 <option value="odia">Odia</option>
+			 <option value="english">English</option>
+			 <option value="hindi">Hindi</option>
+			 <option value="telugu">Telugu</option>
+			 <option value="french">French</option>
+			</select>
+		</td>
+	<tr>
+		<td>Hobbies::</td>
+		<td>
+			<input type="checkbox" name="hb" value="reading">Reading Books &nbsp;&nbsp;
+			<input type="checkbox" name="hb" value="writing">Writing Journals &nbsp;&nbsp;
+			<input type="checkbox" name="hb" value="playing">Playing Cricket &nbsp;&nbsp;
+			<input type="checkbox" name="hb" value="travelling">Traveling &nbsp;&nbsp;
+			<input type="checkbox" name="hb" value="dancing">Dancing
+		</td>
+	</tr>
+	<tr>
+		<td>Date of Birth::</td>
+		<td><input type="date" name="dob"></td>
+	</tr>	
+	<tr>
+		<td>month of Birth::</td>
+		<td><input type="month" name="mob"></td>
+	</tr>	
+	<tr>
+		<td>Time of Birth::</td>
+		<td><input type="time" name="tob"></td>
+	</tr>	
+	<tr>
+		<td>Person Income::</td>
+		<td><input type="number" min="1000" max="1000000" name="income"></td>
+	</tr>	
+	<tr>
+		<td>Satisfied with Income::</td>
+		<td><input type="range" min="0" max="9" name="Satisfaction"></td>
+	</tr>	
+	<tr>
+		<td>Favourite Colour::</td>
+		<td><input type="color" name="favcolor"></td>
+	</tr>	
+	<tr>
+		<td>Facebook link::</td>
+		<td><input type="url" name="fburl"></td>
+	</tr>
+	<tr>
+		<td><input type="submit" name="process details"></td>
+		<td><input type="reset" name="reset"></td>
+	</tr>		
+	</table>
+</form>
