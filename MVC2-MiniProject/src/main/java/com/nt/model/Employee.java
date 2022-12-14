@@ -1,25 +1,24 @@
 package com.nt.model;
 
 public class Employee {
-
-	private int eNo;
-	private String eName;
-	private String desg;
-	private float salary;
-	private float grossSalary;
-	private float netSalary;
-//	getters and setters
-	public int geteNo() {
-		return eNo;
+	private int eno;
+	private String ename;
+	private  String desg;
+	private  float  salary;
+	private  float  grossSalary;
+	private  float  netSalary;
+	//setters and getters
+	public int getEno() {
+		return eno;
 	}
-	public void seteNo(int eNo) {
-		this.eNo = eNo;
+	public void setEno(int eno) {
+		this.eno = eno;
 	}
-	public String geteName() {
-		return eName;
+	public String getEname() {
+		return ename;
 	}
-	public void seteName(String eName) {
-		this.eName = eName;
+	public void setEname(String ename) {
+		this.ename = ename;
 	}
 	public String getDesg() {
 		return desg;
@@ -45,4 +44,6 @@ public class Employee {
 	public void setNetSalary(float netSalary) {
 		this.netSalary = netSalary;
 	}
+	
+
 }
